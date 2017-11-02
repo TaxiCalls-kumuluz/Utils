@@ -28,8 +28,8 @@ public class EagerExtension implements Extension {
 
     /**
      * <p>
-     * Collect all beans that have the {@link com.taxicalls.utils.Eager @Eager} and
-     * {@link javax.enterprise.context.ApplicationScoped @ApplicationScoped}
+     * Collect all beans that have the {@link com.taxicalls.utils.Eager @Eager}
+     * and {@link javax.enterprise.context.ApplicationScoped @ApplicationScoped}
      * annotation and save them for startup.</p>
      *
      * @param event Event represents and contains the found CDI bean during
